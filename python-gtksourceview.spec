@@ -14,7 +14,7 @@ Url: http://www.gnome.org
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: gtksourceview-devel >= 1.9.0
 BuildRequires: pygtk2.0-devel
-BuildRequires: libxslt-proc
+BuildRequires: libxslt-proc docbook-style-xsl
 
 %description
 These are the python bindings for the version 2 of the
