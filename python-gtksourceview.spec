@@ -1,5 +1,5 @@
 %define name python-gtksourceview
-%define version 1.90.1
+%define version 1.90.2
 %define release %mkrel 1
 %define oname pygtksourceview
 
@@ -12,7 +12,7 @@ License: LGPL
 Group: Development/Python
 Url: http://www.gnome.org
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires: gtksourceview-devel >= 1.9.0
+BuildRequires: gtksourceview-devel >= 1.90.2
 BuildRequires: pygtk2.0-devel
 BuildRequires: libxslt-proc docbook-style-xsl
 
