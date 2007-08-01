@@ -1,5 +1,5 @@
 %define name python-gtksourceview
-%define version 1.90.2
+%define version 1.90.3
 %define release %mkrel 1
 %define oname pygtksourceview
 
@@ -12,7 +12,7 @@ License: LGPL
 Group: Development/Python
 Url: http://www.gnome.org
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires: gtksourceview-devel >= 1.90.2
+BuildRequires: gtksourceview-devel >= 1.90.3
 BuildRequires: pygtk2.0-devel
 BuildRequires: libxslt-proc docbook-style-xsl
 
@@ -40,14 +40,14 @@ GtkSourceView library.
 %install
 rm -rf $RPM_BUILD_ROOT
 %makeinstall_std
-rm -f %buildroot%py_platsitedir/gtksourceview2module.la
+rm -f %buildroot%py_platsitedir/gtksourceview2.la
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root)
 %doc README NEWS AUTHORS
-%py_platsitedir/gtksourceview2module.so
+%py_platsitedir/gtksourceview2.so
 
 %files devel
 %defattr(-,root,root)
