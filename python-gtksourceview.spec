@@ -11,6 +11,7 @@ Source0: http://download.gnome.org/sources/%oname/%{oname}-%{version}.tar.bz2
 License: LGPL
 Group: Development/Python
 Url: http://www.gnome.org
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: gtksourceview-devel >= 2.0.0
 BuildRequires: pygtk2.0-devel
 BuildRequires: libxslt-proc docbook-style-xsl
