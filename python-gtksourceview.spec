@@ -14,7 +14,6 @@ Url: http://www.gnome.org
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: gtksourceview-devel >= 2.0.0
 BuildRequires: pygtk2.0-devel
-BuildRequires: python-gobject-devel
 BuildRequires: libxslt-proc docbook-style-xsl
 
 %description
@@ -36,7 +35,7 @@ GtkSourceView library.
 
 %build
 %configure2_5x
-%make
+make
 
 %install
 rm -rf $RPM_BUILD_ROOT
