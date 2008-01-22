@@ -32,6 +32,7 @@ GtkSourceView library.
 
 %prep
 %setup -q -n %oname-%version
+ls -l /usr/share/gtk-doc/html/pygobject/style.css
 
 %build
 %configure2_5x
