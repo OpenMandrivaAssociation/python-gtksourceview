@@ -1,6 +1,6 @@
 %define name python-gtksourceview
 %define version 2.4.0
-%define release %mkrel 2
+%define release %mkrel 3
 %define oname pygtksourceview
 
 Summary: Gtksourceview bindings for Python
@@ -35,7 +35,7 @@ GtkSourceView library.
 
 %build
 %configure2_5x
-%make
+%make PYTHON_LIBS="-lpython%{py_ver}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
