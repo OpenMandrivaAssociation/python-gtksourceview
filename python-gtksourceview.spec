@@ -7,7 +7,7 @@ Summary: Gtksourceview bindings for Python
 Name: %{name}
 Version: %{version}
 Release: %{release}
-Source0: http://download.gnome.org/sources/%oname/%{oname}-%{version}.tar.bz2
+Source0: http://ftp.gnome.org/pub/GNOME/sources/%oname/%{oname}-%{version}.tar.bz2
 License: LGPLv2+
 Group: Development/Python
 Url: http://www.gnome.org
