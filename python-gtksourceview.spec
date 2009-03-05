@@ -1,6 +1,6 @@
 %define name python-gtksourceview
-%define version 2.4.0
-%define release %mkrel 3
+%define version 2.5.0
+%define release %mkrel 1
 %define oname pygtksourceview
 
 Summary: Gtksourceview bindings for Python
