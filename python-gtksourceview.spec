@@ -1,6 +1,6 @@
 %define name python-gtksourceview
-%define version 2.8.0
-%define release %mkrel 1
+%define version 2.9.1
+%define release %mkrel 2
 %define oname pygtksourceview
 
 Summary: Gtksourceview bindings for Python
@@ -12,8 +12,9 @@ License: LGPLv2+
 Group: Development/Python
 Url: http://www.gnome.org
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires: gtksourceview-devel >= 2.3.0
+BuildRequires: gtksourceview-devel >= 2.9.1
 BuildRequires: pygtk2.0-devel
+BuildRequires: libGConf2-devel
 BuildRequires: libxslt-proc docbook-style-xsl
 
 %description
