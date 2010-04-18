@@ -1,5 +1,5 @@
 %define name python-gtksourceview
-%define version 2.10.0
+%define version 2.10.1
 %define release %mkrel 1
 %define oname pygtksourceview
 
