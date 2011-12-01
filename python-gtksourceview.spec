@@ -39,11 +39,11 @@ GtkSourceView library.
 %make PYTHON_LIBS="-lpython%{py_ver}"
 
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 %makeinstall_std
 rm -f %buildroot%py_platsitedir/gtksourceview2.la
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
