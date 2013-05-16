@@ -1,6 +1,6 @@
 %define name python-gtksourceview
 %define version 2.10.1
-%define release %mkrel 7
+%define release  8
 %define oname pygtksourceview
 
 Summary: Gtksourceview bindings for Python
@@ -11,7 +11,6 @@ Source0: http://ftp.gnome.org/pub/GNOME/sources/%oname/%{oname}-%{version}.tar.b
 License: LGPLv2+
 Group: Development/Python
 Url: http://www.gnome.org
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: gtksourceview-devel >= 2.9.1
 BuildRequires: pygtk2.0-devel
 BuildRequires: pkgconfig(gconf-2.0)
