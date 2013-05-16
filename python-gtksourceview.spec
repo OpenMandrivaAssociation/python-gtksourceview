@@ -14,7 +14,7 @@ Url: http://www.gnome.org
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: gtksourceview-devel >= 2.9.1
 BuildRequires: pygtk2.0-devel
-BuildRequires: libGConf2-devel
+BuildRequires: pkgconfig(gconf-2.0)
 BuildRequires: libxslt-proc docbook-style-xsl
 
 %description
