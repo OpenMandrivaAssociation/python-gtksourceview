@@ -14,7 +14,8 @@ Url: http://www.gnome.org
 BuildRequires: gtksourceview-devel >= 2.9.1
 BuildRequires: pygtk2.0-devel
 BuildRequires: pkgconfig(gconf-2.0)
-BuildRequires: libxslt-proc docbook-style-xsl
+#BuildRequires: libxslt-proc docbook-style-xsl
+BuildRequires: pkgconfig(libxslt) docbook-style-xsl
 
 %description
 These are the python bindings for the version 2 of the
