@@ -33,6 +33,7 @@ GtkSourceView library.
 %setup -qn %oname-%{version}
 
 %build
+%define _disable_ld_no_undefined 1
 export PYTHON=%{__python2}
 %configure
 %make PYTHON_LIBS="-lpython2"
