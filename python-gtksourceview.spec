@@ -14,6 +14,7 @@ BuildRequires:	xsltproc
 BuildRequires:	pkgconfig(gconf-2.0)
 BuildRequires:	pkgconfig(gtksourceview-2.0)
 BuildRequires:	pkgconfig(pygtk-2.0)
+BuildRequires:	pkgconfig(python2)
 
 %description
 These are the python bindings for the version 2 of the
@@ -32,15 +33,16 @@ GtkSourceView library.
 %setup -qn %oname-%{version}
 
 %build
-%configure2_5x
-%make PYTHON_LIBS="-lpython%{py_ver}"
+export PYTHON=%{__python2}
+%configure
+%make PYTHON_LIBS="-lpython2"
 
 %install
 %makeinstall_std
 
 %files
 %doc README NEWS AUTHORS
-%{py_platsitedir}/gtksourceview2.so
+%{py2_platsitedir}/gtksourceview2.so
 
 %files devel
 %doc ChangeLog
