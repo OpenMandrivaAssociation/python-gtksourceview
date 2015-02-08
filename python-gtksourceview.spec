@@ -36,7 +36,7 @@ GtkSourceView library.
 %define _disable_ld_no_undefined 1
 export PYTHON=%{__python2}
 %configure
-%make PYTHON_LIBS="-lpython2"
+%make PYTHON_LIBS="-lpython%{py2_ver}"
 
 %install
 %makeinstall_std
