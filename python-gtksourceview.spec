@@ -4,7 +4,7 @@
 Summary:	Gtksourceview bindings for Python
 Name:		python-gtksourceview
 Version:	2.10.1
-Release:	16
+Release:	17
 License:	LGPLv2+
 Group:		Development/Python
 Url:		http://www.gnome.org
