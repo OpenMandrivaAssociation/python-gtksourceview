@@ -2,7 +2,7 @@
 %define oname pygtksourceview
 
 Summary:	Gtksourceview bindings for Python
-Name:		python-gtksourceview
+Name:		python2-gtksourceview
 Version:	2.10.1
 Release:	17
 License:	LGPLv2+
@@ -15,6 +15,7 @@ BuildRequires:	pkgconfig(gconf-2.0)
 BuildRequires:	pkgconfig(gtksourceview-2.0)
 BuildRequires:	pkgconfig(pygtk-2.0)
 BuildRequires:	pkgconfig(python2)
+%rename python-gtksourceview
 
 %description
 These are the python bindings for the version 2 of the
