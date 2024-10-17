@@ -10,7 +10,7 @@ Version:	2.10.1
 Release:	18
 License:	LGPLv2+
 Group:		Development/Python
-Url:		http://www.gnome.org
+Url:		https://www.gnome.org
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/pygtksourceview/%{url_ver}/%{oname}-%{version}.tar.bz2
 BuildRequires:	docbook-style-xsl
 BuildRequires:	xsltproc
