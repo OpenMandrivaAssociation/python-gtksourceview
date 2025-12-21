@@ -12,6 +12,11 @@ License:	LGPLv2+
 Group:		Development/Python
 Url:		https://www.gnome.org
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/pygtksourceview/%{url_ver}/%{oname}-%{version}.tar.bz2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	docbook-style-xsl
 BuildRequires:	xsltproc
 BuildRequires:	pkgconfig(gconf-2.0)
